@@ -9,17 +9,16 @@
 typedef unsigned int uint;
 
 /*Defines area and its volume*/
-#define XMIN -5.
-#define XMAX 5.
-#define YMIN -5.
-#define YMAX 5.
-#define ZMAX 5.
+#define XMIN -10.f
+#define XMAX 10.f
+#define YMIN -10.f
+#define YMAX 10.f
+#define ZMAX 100.f
 
 /*Sets number of randomly generated points*/
-#define PRECISION 1000
+#define PRECISION 100000
 
 int main()
-{
-	std::cout << monte_carlo_start(simpleCube, XMIN, XMAX, YMIN, YMAX, ZMAX, PRECISION);
+{ 
+		std::cout << monte_carlo_start(matyas, XMIN, XMAX, YMIN, YMAX, ZMAX, PRECISION) << std::endl;
 }
-

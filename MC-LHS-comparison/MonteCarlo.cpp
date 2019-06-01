@@ -22,8 +22,10 @@ float monte_carlo_start(float(*fun)(float, float), float xmin, float xmax, float
 
 float generate_random_float(float min, float max)
 {
-	std::random_device rd;  //Will be used to obtain a seed for the random number engine
-	std::mt19937 gen(rd()); //Standard mersenne_twister_engine seeded with rd()
+	/*Will be used to obtain a seed for the random number engine*/
+	std::random_device rd;  
+	/*Standard mersenne_twister_engine seeded with rd()*/
+	std::mt19937 gen(rd()); 
 	std::uniform_real_distribution<float> dis(min, max);
 
 	return dis(gen);
