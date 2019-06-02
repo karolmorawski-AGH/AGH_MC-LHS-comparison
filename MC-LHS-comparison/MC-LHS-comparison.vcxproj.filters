@@ -21,12 +21,18 @@
     <ClCompile Include="MonteCarlo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LatinHypercubeSampling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MonteCarlo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LatinHypercubeSampling.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

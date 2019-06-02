@@ -151,11 +151,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LatinHypercubeSampling.cpp" />
     <ClCompile Include="MC-LHS-comparison.cpp" />
     <ClCompile Include="MonteCarlo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions.h" />
+    <ClInclude Include="LatinHypercubeSampling.h" />
     <ClInclude Include="MonteCarlo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
