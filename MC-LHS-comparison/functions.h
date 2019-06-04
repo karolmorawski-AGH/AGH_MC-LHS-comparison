@@ -14,7 +14,7 @@ float mccormick(float x, float y) {
 }
 
 /*Simple cube*/
-float simpleCube(float x, float y) {
-	return 4;
+float simplePlain(float x, float y) {
+	return 2;
 }
 
