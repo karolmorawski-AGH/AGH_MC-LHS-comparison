@@ -27,7 +27,6 @@ typedef unsigned int uint;
 #define partitions 5
 #define packages 10
 
-
 int main()
 { 
 	using namespace std::chrono;
