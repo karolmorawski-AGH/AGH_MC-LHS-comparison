@@ -1,6 +1,6 @@
 #include "MonteCarlo.h"
 
-float monte_carlo_start(float(*fun)(float, float), float xmin, float xmax, float ymin, float ymax, float zmax, int precision)
+float monte_carlo_start(float(*fun)(float, float), float xmin, float xmax, float ymin, float ymax, float zmax, uint precision)
 {
 	uint hit = 0;
 	float volume = abs(xmax - xmin) * abs(ymax - ymin) * abs(zmax);
@@ -34,7 +34,7 @@ float generate_random_float(float min, float max)
 
 bool does_belong_to(float(*fun)(float, float), float x, float y, float z)
 {
-	if (fun(x, y) <= z && fun(x, y) >= 0) {
+	if (fun(x, y) >= z && fun(x, y) >= 0) {
 		return true;
 	}
 	else {

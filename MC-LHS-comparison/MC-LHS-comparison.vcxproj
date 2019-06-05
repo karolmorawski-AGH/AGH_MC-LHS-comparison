@@ -152,7 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LatinHypercubeSampling.cpp" />
-    <ClCompile Include="MC-LHS-comparison.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="MonteCarlo.cpp" />
   </ItemGroup>
   <ItemGroup>
